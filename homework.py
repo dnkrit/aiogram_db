@@ -75,7 +75,7 @@ async def get_grade(message: Message, state: FSMContext):
     await message.answer("✅ Спасибо! Данные сохранены.")
     await state.clear()
 
-# Запуск
+# Запуск + комментарии
 async def main():
     await dp.start_polling(bot)
 
